@@ -23,5 +23,13 @@ send "bye\r"
 
 #open telnet
 spawn telnet [lindex $argv 0] 9000
-#TODO
+expect ".*: "
+send "root\r"
+expect "/> "
+send "cd /home/ftp\r"
+for {set i 1} {$i < $argc} {incr i} {
+	expect "/home/ftp> "
+	send "chmod 777 [file tail [lindex $argv $i]]\r"
+}
+expect "/home/ftp> "
 interact
