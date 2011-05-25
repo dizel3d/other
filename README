@@ -6,3 +6,8 @@ board.tcl:
 	Usage: board.tcl <host> [<file> ...]
 	 <host> remote host
 	 <file> transfered file
+
+timeout.py:
+	Timeout extending for functions like IO
+	functions (e.g. read, raw_input, input).
+	For more information use "pydoc timeout"

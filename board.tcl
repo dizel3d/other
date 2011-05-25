@@ -10,7 +10,7 @@ if {$argc < 1} {
 
 #export the files to the board
 spawn ftp [lindex $argv 0]
-expect "Name .*: "
+expect "Name *: "
 send "ftp\r"
 expect "Password:"
 send "ftp\r"
