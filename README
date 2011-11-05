@@ -12,3 +12,6 @@ timeout.py:
 	Timeout extension for functions like IO
 	functions (e.g. read, raw_input, input).
 	For more information use "pydoc timeout".
+
+flashdbg.install.sh:
+	Adobe Flash Debugger Installer
