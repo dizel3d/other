@@ -1,5 +1,6 @@
 board.tcl:
-	TCL script for "expect" http://en.wikipedia.org/wiki/Expect. You need to use "board.tcl" for automatical perfomance operations:
+	TCL script for "expect" http://en.wikipedia.org/wiki/Expect.
+	You need to use "board.tcl" for automatical perfomance operations:
 	 - open ftp-connection with remote host, transmit files and close the connection
 	 - open telnet-connection and perform "chmod 777" command for each exported file
 
@@ -8,6 +9,6 @@ board.tcl:
 	 <file> transfered file
 
 timeout.py:
-	Timeout extending for functions like IO
+	Timeout extension for functions like IO
 	functions (e.g. read, raw_input, input).
-	For more information use "pydoc timeout"
+	For more information use "pydoc timeout".
